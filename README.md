@@ -22,7 +22,7 @@ This zip file contains the sources but the Windows SDK 10 is too big to upload o
 
 # Usage
 
-In order to use this xcomp, you can use one of its functions described below, in the format **Do sysinfo.$functionName(cError) Returns cReturnedValue**
+In order to use this xcomp, you can use one of its functions described below, in the format "**Do sysinfo.$functionName(cError) Returns cReturnedValue**"
 
 $getmacaddr(cError) : returns the mac address of the device.
 
