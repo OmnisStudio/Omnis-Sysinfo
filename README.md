@@ -22,17 +22,17 @@ This zip file contains the sources but the Windows SDK 10 is too big to upload o
 
 # Usage
 
-In order to use this xcomp, you can use one of its functions described below, in the format "**Do sysinfo.$functionName(cError) Returns cReturnedValue**"
+In order to use this xcomp, you can use one of its functions described below.
 
-$getmacaddr(cError) : returns the mac address of the device.
+Do sysinfo.$getmacaddr(cError) Returns cReturnedValue : returns the mac address of the device.
 
-$getmanufacturer(cError) : returns the manufacturer of the device.
+Do sysinfo.$getmanufacturer(cError) Returns cReturnedValue : returns the manufacturer of the device.
 
-$getmodel(cError) : returns the model of the device.
+Do sysinfo.$getmodel(cError) Returns cReturnedValue : returns the model of the device.
 
-$getname(cError) : returns the name of the device, this is the hostname.
+Do sysinfo.$getname(cError) Returns cReturnedValue : returns the name of the device, this is the hostname.
 
-$getusername(cError) : returns the username of the user from the machine.
+Do sysinfo.$getusername(cError) Returns cReturnedValue : returns the username of the user from the machine.
 
 # To do
 
