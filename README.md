@@ -1,6 +1,6 @@
 # Requirements
 
-Omnis Studio **10** or later. Source should be compiled with the SDK 8 if needed.
+Omnis Studio **10** or later.
 
 ## Contents
 
