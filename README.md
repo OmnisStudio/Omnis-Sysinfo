@@ -36,4 +36,6 @@ Do sysinfo.$getusername(cError) Returns cReturnedValue : returns the username of
 
 # To do
 
+Add 8.1.x xcomp for Windows.
+Add 8.1.x xcomp for Linux.
 Add more features over time!
