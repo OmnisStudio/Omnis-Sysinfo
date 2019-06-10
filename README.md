@@ -2,7 +2,7 @@
 
 Omnis Studio **10** or later. Source can be used to compile with previous SDKs if you want to extend support to Studio 8.1.x for example.
 
-## Contents
+# Contents
 
 ##### xcomp
 
