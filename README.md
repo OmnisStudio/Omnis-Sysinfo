@@ -1,6 +1,6 @@
 # Requirements
 
-Omnis Studio **10** or later.
+Omnis Studio **10** or later. Source can be used to compile with previous SDKs if you want to extend support to Studio 8.1.x for example.
 
 ## Contents
 
@@ -36,6 +36,6 @@ Do sysinfo.$getusername(cError) Returns cReturnedValue : returns the username of
 
 # To do
 
-Add 8.1.x xcomp for Windows.
 Add 8.1.x xcomp for Linux.
+
 Add more features over time!
