@@ -6,7 +6,11 @@ Omnis Studio **10** or later. Source can be used to compile with previous SDKs i
 
 ##### xcomp
 
-This folder contains the compiled xcomp that you can add to Omnis.
+This folder contains the folders with the compiled xcomp that you can add to Omnis.
+
+##### xcomp/studio81x
+
+This folder contains the folders with the compiled xcomp that you can add to Omnis 8.1.x.
 
 ##### sysinfo_linux.tar.gz
 
