@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/omnisinc.h \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/sysinfo/../complib/u_complib.framework/Headers/carbnuni.h \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/sysinfo/Src/xsysinfo.cpp \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/extcomp.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/basics.h \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xbasics.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xfileext.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/chrbasic.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/omstring.c \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/omstring.h \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/hwnd.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xhwnd.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/gdi.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xgdi.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xbitmap.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xgdi_rgn.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xgdiinl.hi \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xhwndinl.hi \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/gdipict.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/strclass.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/extfval.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/extcrb.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/extfuncs.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/extdefs.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/extqlist.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/extbmp.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/anums.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xkey.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/pri.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xpri.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/extfile.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/flddefs.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/xextcinl.hi \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/complib/u_complib.framework/Headers/handle.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/sysinfo/Src/sysinfo.he \
+  /Users/andreiaugustin/Projects/Omnis-Sysinfo/sysinfo_mac/sysinfo/Src/xsysinfo.he

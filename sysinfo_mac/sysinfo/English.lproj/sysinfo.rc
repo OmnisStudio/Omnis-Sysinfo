@@ -1,0 +1,31 @@
+STRINGTABLE DISCARDABLE
+BEGIN
+1000	"sysinfo"
+2000	"System Information"
+
+7000	"cError:Character variable where error text will be returned when an error occurs."
+
+// static functions
+8000	"$getusername:$getusername(cError) returns username of the user currently signed in on the computer Omnis Studio is running on."
+8001	"$getmodel:$getmodel(cError) returns model of the computer Omnis Studio is currently running on."
+8002	"$getmanufacturer:$getmanufacturer(cError) returns manufacturer of the computer Omnis Studio is currently running on."
+8003	"$getname:$getname(cError) returns name of the computer Omnis Studio is currently running on. Computer name is hostname on macOS and Linux."
+8004	"$getmacaddr:$getmacaddr(cError) returns MAC address of the computer Omnis is currently running on. If error occurrs, it will be returned in cError."
+8005	"$getscreencount:$getscreencount(cError) returns the numbers of screens in use by your computer. If error occurrs, it will be returned in cError."
+8006	"$getcolourdepth:$getcolourdepth(cError) returns the colour depths of the main screen. If error occurrs, it will be returned in cError."
+8007	"$getscalingfactor:$getscalingfactor(cError) returns the scaling factor of the main screen. If error occurrs, it will be returned in cError."
+
+// errors
+10000	"Not enough parameters have been passed."
+10001	"Could not retrieve username from system."
+10002	"Could not retrieve computer model from system."
+10003	"Could not retrieve computer name from system."
+10004	"Could not retrieve MAC address from system."
+10005	"Could not retrieve computer manufacturer from system."
+10006	"Could not retrieve screen count from systme."
+10007	"Could not retrieve colour depth from system."
+10008	"Could not retrieve scaling factor from system."
+
+31000	"sysinfoWndProc"
+END
+

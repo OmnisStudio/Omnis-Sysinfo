@@ -1,0 +1,29 @@
+//
+//  xsysinfo.he
+//  sysinfo
+//
+//  Created by Andrei Augustin on 20/05/2019.
+//  Copyright © 2019 Omnis Software Ltd. All rights reserved.
+//
+
+#ifndef xsysinfo_he
+#define xsysinfo_he
+
+#include <sys/sysctl.h>
+#include <fstream>
+#include <stdio.h>
+#include <CoreFoundation/CoreFoundation.h>
+#include <IOKit/IOKitLib.h>
+#include <IOKit/network/IOEthernetInterface.h>
+#include <IOKit/network/IONetworkInterface.h>
+#include <IOKit/network/IOEthernetController.h>
+
+class macAddressInteractor
+{
+public:
+	static kern_return_t FindEthernetInterfaces(io_iterator_t *matchingServices);
+	static kern_return_t GetMACAddress(io_iterator_t intfIterator, UInt8 *MACAddress, UInt8 bufferSize);
+	static void getMacAddress(char (&macAddress)[18]);
+};
+
+#endif /* xsysinfo_he_h */

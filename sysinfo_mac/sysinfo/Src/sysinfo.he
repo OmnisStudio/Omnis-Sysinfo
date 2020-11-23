@@ -1,0 +1,34 @@
+//
+//  sysinfo.he
+//  sysinfo
+//
+//  Created by Andrei Augustin on 17/05/2019.
+//  Copyright © 2019 Omnis Software Ltd. All rights reserved.
+//
+
+#define LIB_RES_NAME    1000
+#define COMPONENT_COUNT 1
+
+
+// static methods IDs
+const qshort sysinfo_GetUsername = 8000;
+const qshort sysinfo_GetModel = 8001;
+const qshort sysinfo_GetManufacturer = 8002;
+const qshort sysinfo_GetName = 8003;
+const qshort sysinfo_GetMacAddress = 8004;
+const qshort sysinfo_GetScreenCount = 8005;
+const qshort sysinfo_GetColourDepth = 8006;
+const qshort sysinfo_GetScalingFactor = 8007;
+
+class sys_info
+{
+public:
+	static qbool getMacAddress(EXTfldval& returnValue);
+	static qbool getUsername(EXTfldval& returnValue);
+	static qbool getManufacturer(EXTfldval& returnValue);
+	static qbool getModel(EXTfldval& returnValue);
+	static qbool getComputerName(EXTfldval& returnValue);
+	static qbool getScreenCount(EXTfldval& returnValue);
+	static qbool getColourDepth(EXTfldval& returnValue);
+	static qbool getScalingFactor(EXTfldval& returnValue);
+};
