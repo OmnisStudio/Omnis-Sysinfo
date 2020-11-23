@@ -1,6 +1,6 @@
 # Requirements
 
-Omnis Studio **10** or later. Source can be used to compile with previous SDKs if you want to extend support to Studio 8.1.x for example.
+Omnis Studio **10.1** or later. Source can be used to compile with previous SDKs if you want to extend support to Studio 8.1.x for example.
 
 # Contents
 
@@ -8,17 +8,13 @@ Omnis Studio **10** or later. Source can be used to compile with previous SDKs i
 
 This folder contains the folders with the compiled xcomp that you can add to Omnis.
 
-##### xcomp/studio81x
-
-This folder contains the folders with the compiled xcomp that you can add to Omnis 8.1.x.
-
 ##### sysinfo_linux.tar.gz
 
 This zip file contains the sources and SDK 10 and a buildSysinfo.sh script which once executed, will compile the xcomp and make it available in the releaseuni and releasuni-headless folders.
 
-##### sysinfo_mac.zip
+##### sysinfo_mac 
 
-This zip file contains the sources and SDK 10. Use sysinfo.xcodeproj in order to compile the source.
+This folder contains the sources, you will need to add the complib inside this folder. Use sysinfo.xcodeproj project in order to compile the source.
 
 ##### sysinfo_windows.zip
 
@@ -38,7 +34,17 @@ Do sysinfo.$getname(cError) Returns cReturnedValue : returns the name of the dev
 
 Do sysinfo.$getusername(cError) Returns cReturnedValue : returns the username of the user from the machine.
 
+**macOS only - Windows will get these functions soon**
+
+Do sysinfo.$getscalingfactor(cError) Returns iReturnedValue : returns the scaling factor of the main screen.
+
+Do sysinfo.$getcolourdepth(cError) Returns iReturnedValue : returns the colour depth of a single channel (can be multipled by 3 if you want RGB colour depth and by 4 if you want RGB + Alpha channel).
+
+Do sysinfo.$getscreencount(cError) Returns iReturnedValue : returns the number of screens in use identified by the OS.
+
 # To do
+
+Port $getscalingfactor, $getcolourdepth and $getscreencount to Windows.
 
 Add 8.1.x xcomp for Linux.
 
